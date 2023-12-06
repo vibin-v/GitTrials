@@ -52,5 +52,24 @@ public class SampleTest
 		driver.quit();
 
 	}
+	public void test3()
+	{
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		
+		driver.get("https://www.bestbuy.com/");
+		
+		String actualPageTitle = driver.getTitle();
+		
+		Assert.assertTrue(actualPageTitle.equalsIgnoreCase("Best Buy International: Select your Country - Best Buy"));
+		
+		Reporter.log("Thats cool!!!Page title is : "+actualPageTitle,true);
+		
+		driver.quit();
+
+	}
 	
 }
