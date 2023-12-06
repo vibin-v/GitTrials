@@ -89,5 +89,24 @@ public class SampleTest
 		driver.quit();
 
 	}
+	@Test
+	public void test05()
+	{
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		
+		driver.get("https://www.bestbuy.com/");
+		
+		WebElement labelText = driver.findElement(By.xpath("//div[text()='Hello!']"));
+		
+		Assert.assertTrue(labelText.isDisplayed());
+		Reporter.log("Thats cool!!!");
+		
+		driver.quit();
+
+	}
 
 }
