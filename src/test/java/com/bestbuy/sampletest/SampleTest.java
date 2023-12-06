@@ -96,5 +96,10 @@ public class SampleTest
 		//abcccc
 		
 	}
+	public void test6()
+	{
+		//abcccc
+		
+	}
 	}
 }
