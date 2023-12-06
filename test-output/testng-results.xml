@@ -1,56 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Thats cool!!!]]>
-    </line>
-    <line>
-      <![CDATA[Thats cool!!!]]>
-    </line>
-    <line>
-      <![CDATA[Thats cool!!!]]>
-    </line>
-    <line>
-      <![CDATA[Thats cool!!!]]>
-    </line>
     <line>
       <![CDATA[Thats cool!!!Page title is : Best Buy International: Select your Country - Best Buy]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-12-06T15:50:50 IST" name="Default suite" finished-at="2023-12-06T15:51:03 IST" duration-ms="12987">
+  <suite started-at="2023-12-06T18:52:24 IST" name="Suite" finished-at="2023-12-06T18:52:29 IST" duration-ms="5023">
     <groups>
     </groups>
-    <test started-at="2023-12-06T15:50:50 IST" name="Default test" finished-at="2023-12-06T15:51:03 IST" duration-ms="12987">
+    <test started-at="2023-12-06T18:52:24 IST" name="Test" finished-at="2023-12-06T18:52:29 IST" duration-ms="5023">
       <class name="com.bestbuy.sampletest.SampleTest">
-        <test-method signature="test02()[pri:0, instance:com.bestbuy.sampletest.SampleTest@4a883b15]" started-at="2023-12-06T15:50:50 IST" name="test02" finished-at="2023-12-06T15:50:53 IST" duration-ms="3017" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Thats cool!!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test02 -->
-        <test-method signature="test03()[pri:0, instance:com.bestbuy.sampletest.SampleTest@4a883b15]" started-at="2023-12-06T15:50:53 IST" name="test03" finished-at="2023-12-06T15:50:55 IST" duration-ms="2587" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Thats cool!!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test03 -->
-        <test-method signature="test04()[pri:0, instance:com.bestbuy.sampletest.SampleTest@4a883b15]" started-at="2023-12-06T15:50:55 IST" name="test04" finished-at="2023-12-06T15:50:58 IST" duration-ms="2547" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Thats cool!!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test04 -->
-        <test-method signature="test05()[pri:0, instance:com.bestbuy.sampletest.SampleTest@4a883b15]" started-at="2023-12-06T15:50:58 IST" name="test05" finished-at="2023-12-06T15:51:00 IST" duration-ms="2547" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Thats cool!!!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test05 -->
-        <test-method signature="testPageTitle()[pri:0, instance:com.bestbuy.sampletest.SampleTest@4a883b15]" started-at="2023-12-06T15:51:00 IST" name="testPageTitle" finished-at="2023-12-06T15:51:03 IST" duration-ms="2225" status="PASS">
+        <test-method signature="testPageTitle()[pri:0, instance:com.bestbuy.sampletest.SampleTest@2e6a8155]" started-at="2023-12-06T18:52:24 IST" name="testPageTitle" finished-at="2023-12-06T18:52:29 IST" duration-ms="4980" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Thats cool!!!Page title is : Best Buy International: Select your Country - Best Buy]]>
@@ -58,6 +18,6 @@
           </reporter-output>
         </test-method> <!-- testPageTitle -->
       </class> <!-- com.bestbuy.sampletest.SampleTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
