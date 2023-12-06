@@ -5,12 +5,12 @@
       <![CDATA[Thats cool!!!Page title is : Best Buy International: Select your Country - Best Buy]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-12-06T18:52:24 IST" name="Suite" finished-at="2023-12-06T18:52:29 IST" duration-ms="5023">
+  <suite started-at="2023-12-06T19:02:56 IST" name="Suite" finished-at="2023-12-06T19:03:01 IST" duration-ms="4485">
     <groups>
     </groups>
-    <test started-at="2023-12-06T18:52:24 IST" name="Test" finished-at="2023-12-06T18:52:29 IST" duration-ms="5023">
+    <test started-at="2023-12-06T19:02:56 IST" name="Test" finished-at="2023-12-06T19:03:01 IST" duration-ms="4485">
       <class name="com.bestbuy.sampletest.SampleTest">
-        <test-method signature="testPageTitle()[pri:0, instance:com.bestbuy.sampletest.SampleTest@2e6a8155]" started-at="2023-12-06T18:52:24 IST" name="testPageTitle" finished-at="2023-12-06T18:52:29 IST" duration-ms="4980" status="PASS">
+        <test-method signature="testPageTitle()[pri:0, instance:com.bestbuy.sampletest.SampleTest@2e6a8155]" started-at="2023-12-06T19:02:56 IST" name="testPageTitle" finished-at="2023-12-06T19:03:01 IST" duration-ms="4441" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Thats cool!!!Page title is : Best Buy International: Select your Country - Best Buy]]>
