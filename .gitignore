@@ -1,4 +1,11 @@
-target/
-test-ouput/
-*.classpath
-*.html
+target
+test-ouput
+.classpath
+test-output/Suite/Test.html
+test-output/Suite/Test.xml
+test-output/emailable-report.html
+test-output/index.html
+test-output/junitreports/TEST-com.bestbuy.sampletest.SampleTest.xml
+test-output/old/Suite/methods-alphabetical.html
+test-output/old/Suite/methods.html
+test-output/testng-results.xml
