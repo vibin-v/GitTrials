@@ -9,3 +9,5 @@ test-output/junitreports/TEST-com.bestbuy.sampletest.SampleTest.xml
 test-output/old/Suite/methods-alphabetical.html
 test-output/old/Suite/methods.html
 test-output/testng-results.xml
+target/test-classes/com/bestbuy/sampletest/SampleTest.class
+test-output/old/Suite/classes.html
