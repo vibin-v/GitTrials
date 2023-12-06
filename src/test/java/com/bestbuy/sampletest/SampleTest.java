@@ -30,7 +30,64 @@ public class SampleTest
 		Reporter.log("Thats cool!!!Page title is : "+actualPageTitle,true);
 		
 		driver.quit();
+
 	}
-	
+	@Test
+	public void test02()
+	{
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		
+		driver.get("https://www.bestbuy.com/");
+		
+		WebElement labelText = driver.findElement(By.xpath("//div[text()='Hello!']"));
+		
+		Assert.assertTrue(labelText.isDisplayed());
+		Reporter.log("Thats cool!!!");
+		
+		driver.quit();
+
+	}
+	@Test
+	public void test03()
+	{
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		
+		driver.get("https://www.bestbuy.com/");
+		
+		WebElement labelText = driver.findElement(By.xpath("//div[text()='Hello!']"));
+		
+		Assert.assertTrue(labelText.isDisplayed());
+		Reporter.log("Thats cool!!!");
+		
+		driver.quit();
+
+	}
+	@Test
+	public void test04()
+	{
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		
+		driver.get("https://www.bestbuy.com/");
+		
+		WebElement labelText = driver.findElement(By.xpath("//div[text()='Hello!']"));
+		
+		Assert.assertTrue(labelText.isDisplayed());
+		Reporter.log("Thats cool!!!");
+		
+		driver.quit();
+
+	}
 
 }
